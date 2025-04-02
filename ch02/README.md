@@ -1,9 +1,9 @@
-# Chapter 2: Working with Text Data
+# 2장: 텍스트 데이터 다루기
 
 &nbsp;
-## Main Chapter Code
+## 예제 코드
 
-- [01_main-chapter-code](01_main-chapter-code) contains the main chapter code and exercise solutions
+- [01_main-chapter-code](01_main-chapter-code)에는 2장의 코드와 연습 문제 해답이 포함되어 있습니다.
 
 &nbsp;
 ## Bonus Materials
