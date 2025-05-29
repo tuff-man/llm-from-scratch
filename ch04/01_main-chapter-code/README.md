@@ -1,11 +1,7 @@
-# Chapter 4: Implementing a GPT Model from Scratch To Generate Text
+# 4장: 밑바닥부터 GPT 모델 구현하기
 
-### Main Chapter Code
+### 예제 코드
 
-- [ch04.ipynb](ch04.ipynb) contains all the code as it appears in the chapter
-- [previous_chapters.py](previous_chapters.py) is a Python module that contains the `MultiHeadAttention` module from the previous chapter, which we import in [ch04.ipynb](ch04.ipynb) to create the GPT model
-
-### Optional Code
-
-- [gpt.py](gpt.py) is a standalone Python script file with the code that we implemented thus far, including the GPT model we coded in this chapter
-
+- [ch04.ipynb](ch04.ipynb)에는 이 장에 포함된 모든 코드가 담겨 있습니다.
+- [previous_chapters.py](previous_chapters.py)은 이전 장에서 만든 `MultiHeadAttention`을 담고 있는 파이썬 모듈입니다. [ch04.ipynb](ch04.ipynb)에서 GPT 모델을 만들 때 임포트해 사용합니다.
+- [exercise-solutions.ipynb](exercise-solutions.ipynb)에는 이 장의 연습문제 해답이 담겨 있습니다.
