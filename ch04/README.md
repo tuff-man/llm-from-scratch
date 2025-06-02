@@ -1,21 +1,12 @@
-# Chapter 4: Implementing a GPT Model from Scratch to Generate Text
+# 4장: 밑바닥부터 GPT 모델 구현하기
 
 &nbsp;
-## Main Chapter Code
+## 예제 코드
 
-- [01_main-chapter-code](01_main-chapter-code) contains the main chapter code.
+- [01_main-chapter-code](01_main-chapter-code)에는 4장의 코드와 연습 문제 해답이 포함되어 있습니다. 
 
 &nbsp;
-## Bonus Materials
+## 보너스 자료
 
 - [02_performance-analysis](02_performance-analysis) contains optional code analyzing the performance of the GPT model(s) implemented in the main chapter
 - [ch05/07_gpt_to_llama](../ch05/07_gpt_to_llama) contains a step-by-step guide for converting a GPT architecture implementation to Llama 3.2 and loads pretrained weights from Meta AI (it might be interesting to look at alternative architectures after completing chapter 4, but you can also save that for after reading chapter 5)
-
-
-
-In the video below, I provide a code-along session that covers some of the chapter contents as supplementary material.
-
-<br>
-<br>
-
-[![Link to the video](https://img.youtube.com/vi/YSAkgEarBGE/0.jpg)](https://www.youtube.com/watch?v=YSAkgEarBGE)
