@@ -1,11 +1,11 @@
-# Chapter 5: Pretraining on Unlabeled Data
+# 5장: 레이블이 없는 데이터를 활용한 사전 훈련
 
-### Main Chapter Code
+### 예제 코드
 
-- [ch05.ipynb](ch05.ipynb) contains all the code as it appears in the chapter
-- [previous_chapters.py](previous_chapters.py) is a Python module that contains the `MultiHeadAttention` module and `GPTModel` class from the previous chapters, which we import in [ch05.ipynb](ch05.ipynb) to pretrain the GPT model
-- [gpt_download.py](gpt_download.py) contains the utility functions for downloading the pretrained GPT model weights
-- [exercise-solutions.ipynb](exercise-solutions.ipynb) contains the exercise solutions for this chapter
+- [ch05.ipynb](ch05.ipynb)에는 이 장에 포함된 모든 코드가 담겨 있습니다.
+- [previous_chapters.py](previous_chapters.py)는 이전 장에서 만든 `MultiHeadAttention`과 `GPTModel` 클래스를 담고 있는 파이썬 모듈입니다. GPT 모델을 사전 훈련하기 위해 [ch05.ipynb](ch05.ipynb)에서 임포트합니다.
+- [gpt_download.py](gpt_download.py)는 사전 훈련된 GPT 모델의 가중치를 다운로드하기 위함 유틸리티 함수를 담고 있습니다.
+- [exercise-solutions.ipynb](exercise-solutions.ipynb)는 이 장의 연습문제 솔루션을 담고 있습니다.
 
 ### Optional Code
 
