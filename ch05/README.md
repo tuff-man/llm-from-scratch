@@ -1,12 +1,12 @@
-# Chapter 5: Pretraining on Unlabeled Data
+# 5장: 레이블이 없는 데이터를 활용한 사전 훈련
 
 &nbsp;
-## Main Chapter Code
+## 예제 코드
 
-- [01_main-chapter-code](01_main-chapter-code) contains the main chapter code
+- [01_main-chapter-code](01_main-chapter-code)에는 5장의 코드와 연습 문제 해답이 포함되어 있습니다. 
 
 &nbsp;
-## Bonus Materials
+## 보너스 자료
 
 - [02_alternative_weight_loading](02_alternative_weight_loading) contains code to load the GPT model weights from alternative places in case the model weights become unavailable from OpenAI
 - [03_bonus_pretraining_on_gutenberg](03_bonus_pretraining_on_gutenberg) contains code to pretrain the LLM longer on the whole corpus of books from Project Gutenberg
@@ -17,10 +17,3 @@
 - [08_memory_efficient_weight_loading](08_memory_efficient_weight_loading) contains a bonus notebook showing how to load model weights via PyTorch's `load_state_dict` method more efficiently
 - [09_extending-tokenizers](09_extending-tokenizers) contains a from-scratch implementation of the GPT-2 BPE tokenizer
 - [10_llm-training-speed](10_llm-training-speed) shows PyTorch performance tips to improve the LLM training speed
-
-
-
-<br>
-<br>
-
-[![Link to the video](https://img.youtube.com/vi/Zar2TJv-sE0/0.jpg)](https://www.youtube.com/watch?v=Zar2TJv-sE0)
