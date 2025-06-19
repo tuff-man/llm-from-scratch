@@ -1,7 +1,7 @@
 # 7장: 지시를 따르도록 미세 튜닝하기
 
 ### 예제 코드
-
+
 - [ch07.ipynb](ch07.ipynb)에는 이 장에 포함된 모든 코드가 담겨 있습니다.
 - [previous_chapters.py](previous_chapters.py)는 이전 장에서 만들고 훈련한 GPT 모델과 여러 유틸리 함수를 담고 있는 파이썬 모듈입니다.
 - [gpt_download.py](gpt_download.py)는 사전 훈련된 GPT 모델의 가중치를 다운로드하기 위함 유틸리티 함수를 담고 있습니다.
