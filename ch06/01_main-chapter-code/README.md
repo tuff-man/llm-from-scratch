@@ -1,11 +1,11 @@
-# Chapter 6: Finetuning for Classification
+# 6장: 분류를 위해 미세 튜닝하기
 
-### Main Chapter Code
-
-- [ch06.ipynb](ch06.ipynb) contains all the code as it appears in the chapter
-- [previous_chapters.py](previous_chapters.py)  is a Python module that contains the GPT model we coded and trained in previous chapters, alongside many utility functions, which we reuse in this chapter
-- [gpt_download.py](gpt_download.py) contains the utility functions for downloading the pretrained GPT model weights
-- [exercise-solutions.ipynb](exercise-solutions.ipynb) contains the exercise solutions for this chapter
+### 예제 코드
+
+- [ch06.ipynb](ch06.ipynb)에는 이 장에 포함된 모든 코드가 담겨 있습니다.
+- [previous_chapters.py](previous_chapters.py)는 이전 장에서 만들고 훈련한 GPT 모델과 여러 유틸리 함수를 담고 있는 파이썬 모듈입니다.
+- [gpt_download.py](gpt_download.py)는 사전 훈련된 GPT 모델의 가중치를 다운로드하기 위함 유틸리티 함수를 담고 있습니다.
+- [exercise-solutions.ipynb](exercise-solutions.ipynb)는 이 장의 연습문제 솔루션을 담고 있습니다.
 
 ### Optional Code
 
