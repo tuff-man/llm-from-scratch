@@ -65,11 +65,32 @@ git clone --depth 1 https://github.com/rickiepark/llm-from-scratch.git
 <br>
 &nbsp;
 
+## 사전 지식
+
+가장 중요한 사전 지식은 파이썬 프로그래밍에 대한 탄탄한 기초입니다. 이를 바탕으로 LLM의 매력적인 세계를 탐험하고 이 책에 제시된 개념과 코드 예제를 충분히 이해할 수 있습니다.
+
+LLM이 심층 신경망을 기반으로 구축되므로 이에 대한 경험이 있다면 일부 개념이 더 익숙하게 느껴질 수 있습니다.
+
+이 책은 외부 LLM 라이브러리를 사용하지 않고 파이토치(PyTorch)를 활용해 코드를 처음부터 구현합니다. 파이토치에 대한 숙련도는 필수는 아니지만, 파이토치의 기본 사항에 익숙하면 분명히 도움이 됩니다. 파이토치가 처음이라면 간략하게 파이토치를 소개하는 부록 A를 참고하세요.
+
+<br>
+
 ## 하드웨어 요구사항
 
 이 책의 주요 장에 포함된 코드는 합리적인 시간 내에 일반 노트북에서 실행될 수 있도록 설계되었으며, 전용 하드웨어가 필요하지 않습니다. 이런 방식을 채택함으로써 더 많은 독자가 쉽게 내용을 따라갈 수 있습니다. 또한, 이 저장소의 코드는 GPU가 사용 가능한 경우 이를 자동으로 활용합니다. (추가 권장 사항은 [설정](setup/README.md) 문서를 참조하세요.)
 
-&nbsp;
+<br>
+
+## Exercises
+
+이 책의 각 장에는 여러 연습문제가 포함되어 있습니다. 해답은 부록 C에 요약되어 있으며, 해당 코드 노트북은 이 저장소의 주요 장 폴더(예: [./ch02/01_main-chapter-code/exercise-solutions.ipynb](./ch02/01_main-chapter-code/exercise-solutions.ipynb))에서 확인할 수 있습니다.
+
+코드 연습문제 외에도, 본문과 별도로 140페이지 분량의 워크북이 함께 제공됩니다. 워크북에는 장당 약 30개의 퀴즈 문제와 해답이 포함되어 있어, 학습 내용을 점검하는 데 도움이 될 것입니다.
+
+<a href="https://tensorflow.blog/llm-from-scratch/"><img src="https://tensorflowkorea.wordpress.com/wp-content/uploads/2025/09/ebb091ebb094eb8ba5llm_ec9b8ced81acebb681_ec959eeba9b4.jpg" width="250px"></a>
+
+<br>
+
 ## 보너스 자료
 
 관심있는 독자를 위해 몇몇 폴더에 추가 자료가 담겨 있습니다:
@@ -88,6 +109,7 @@ git clone --depth 1 https://github.com/rickiepark/llm-from-scratch.git
   - [Understanding PyTorch Buffers](ch03/03_understanding-buffers/understanding-buffers.ipynb)
 - **4장: 밑바닥부터 GPT 모델 구현하기**
   - [FLOPS Analysis](ch04/02_performance-analysis/flops-analysis.ipynb)
+  - [KV Cache](ch04/03_kv-cache)
 - **5장: 레이블이 없는 데이터를 활용한 사전 훈련**
   - [Alternative Weight Loading Methods](ch05/02_alternative_weight_loading/)
   - [Pretraining GPT on the Project Gutenberg Dataset](ch05/03_bonus_pretraining_on_gutenberg)
@@ -96,6 +118,8 @@ git clone --depth 1 https://github.com/rickiepark/llm-from-scratch.git
   - [Building a User Interface to Interact With the Pretrained LLM](ch05/06_user_interface)
   - [Converting GPT to Llama](ch05/07_gpt_to_llama)
   - [Llama 3.2 From Scratch](ch05/07_gpt_to_llama/standalone-llama32.ipynb)
+  - [Qwen3 Dense and Mixture-of-Experts (MoE) From Scratch](ch05/11_qwen3/)
+  - [Gemma 3 From Scratch](ch05/12_gemma3/)
   - [Memory-efficient Model Weight Loading](ch05/08_memory_efficient_weight_loading/memory-efficient-state-dict.ipynb)
   - [Extending the Tiktoken BPE Tokenizer with New Tokens](ch05/09_extending-tokenizers/extend-tiktoken.ipynb)
   - [PyTorch Performance Tips for Faster LLM Training](ch05/10_llm-training-speed)
