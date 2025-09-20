@@ -3,7 +3,6 @@
 <밑바닥부터 만들면서 배우는 LLM>(길벗, 2025) 책의 공식 코드 저장소로 GPT와 유사한 LLM의 개발, 사전 훈련, 미세 튜닝하기 위한 코드를 포함하고 있습니다.
 
 <br>
-<br>
 
 <a href="https://tensorflow.blog/llm-from-scratch/"><img src="https://tensorflow.blog/wp-content/uploads/2025/09/ebb091ebb094eb8ba5llm_ebb3b8ecb185_ec959eeba9b4.jpg" width="350px"></a>
 
@@ -18,7 +17,6 @@
 * [교보문고](https://product.kyobobook.co.kr/detail/S000217570241), [Yes24](https://www.yes24.com/product/goods/154099735), [알라딘](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=372272431)
 
 <br>
-<br>
 
 이 저장소를 다운로드하려면 [Download ZIP](https://github.com/rickiepark/llm-from-scratch/archive/refs/heads/main.zip) 버튼을 클릭하거나 터미널에서 다음 명령을 실행하세요:
 
@@ -27,8 +25,6 @@ git clone --depth 1 https://github.com/rickiepark/llm-from-scratch.git
 ```
 
 <br>
-<br>
-
 
 # 목차
 
@@ -37,12 +33,10 @@ git clone --depth 1 https://github.com/rickiepark/llm-from-scratch.git
 [깃허브](https://github.com/rickiepark/llm-from-scratch)는 마크다운 파일을 자동으로 렌더링해 줍니다.
 
 <br>
-<br>
 
 > **팁:**
 > 로컬 컴퓨터나 클라우드에서 파이썬 환경을 구성하는 가이드를 찾고 있다면 [setup](setup) 디렉토리 안의 [README.md](setup/README.md) 파일을 참고하세요.
 
-<br>
 <br>
 
 | 제목                                              | 메인 코드                                                                                                    | 모든 코드 + 부록      |
