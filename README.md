@@ -12,6 +12,11 @@
 
 이 책에서는 교육적인 목적으로 작지만 완전한 기능을 갖춘 모델을 만듭니다. 이런 모델을 훈련하고 개발하는 방법은 ChatGPT와 같은 대규모 파운데이터션 모델을 만드는 데 사용된 방법과 동일합니다. 또한, 이 책에는 사전 훈련된 모델의 가중치를 불러와 미세 튜닝하는 코드도 포함되어 있습니다.
 
+### 동영상 강의
+
+* 인프런에 도서에 포함된 예제와 추가 자료에 대한 [해설 강의](https://inf.run/wQDh8)가 있습니다.
+* [도서 소개 영상](https://youtu.be/R80Gfde4cpg?list=PLJN246lAkhQhgakhcxz-5GwG_NYuJgSv1)
+* [유튜브 동영상 강의](https://www.youtube.com/playlist?list=PLJN246lAkhQhgakhcxz-5GwG_NYuJgSv1)
 * [공식 코드 저장소](https://github.com/rickiepark/llm-from-scratch)
 * [에러타 페이지](https://tensorflow.blog/llm-from-scratch/)
 * [교보문고](https://product.kyobobook.co.kr/detail/S000217570241), [Yes24](https://www.yes24.com/product/goods/154099735), [알라딘](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=372272431)
