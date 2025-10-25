@@ -55,8 +55,8 @@ git clone --depth 1 https://github.com/rickiepark/llm-from-scratch.git
 | 6장: 분류를 위해 미세 튜닝하기                   | - [ch06.ipynb](ch06/01_main-chapter-code/ch06.ipynb)  <br/>- [gpt_class_finetune.py](ch06/01_main-chapter-code/gpt_class_finetune.py)  <br/>- [exercise-solutions.ipynb](ch06/01_main-chapter-code/exercise-solutions.ipynb) | [./ch06](./ch06)              |
 | 7장: 지시를 따르도록 미세 튜닝하기                    | - [ch07.ipynb](ch07/01_main-chapter-code/ch07.ipynb)<br/>- [gpt_instruction_finetuning.py](ch07/01_main-chapter-code/gpt_instruction_finetuning.py) (요약)<br/>- [ollama_evaluate.py](ch07/01_main-chapter-code/ollama_evaluate.py) (요약)<br/>- [exercise-solutions.ipynb](ch07/01_main-chapter-code/exercise-solutions.ipynb) | [./ch07](./ch07)  |
 | 부록 A: 파이토치 소개                        | - [code-part1.ipynb](appendix-A/01_main-chapter-code/code-part1.ipynb)<br/>- [code-part2.ipynb](appendix-A/01_main-chapter-code/code-part2.ipynb)<br/>- [DDP-script.py](appendix-A/01_main-chapter-code/DDP-script.py)<br/>- [exercise-solutions.ipynb](appendix-A/01_main-chapter-code/exercise-solutions.ipynb) | [./appendix-A](./appendix-A) |
-| 부록 B: 참고 및 더 읽을 거리                 | 코드 없음                                                                                                                         | -                             |
-| 부록 C: 연습문제 해답                             | 코드 없음                                                                                                                         | -                             |
+| 부록 B: 참고 및 더 읽을 거리                 | 코드 없음                                                                                                                         | [./appendix-B](./appendix-B)                             |
+| 부록 C: 연습문제 해답                             | 코드 없음                                                                                                                         | [./appendix-C](./appendix-C)                             |
 | 부록 D: 훈련 루프에 부가 기능 추가하기 | - [appendix-D.ipynb](appendix-D/01_main-chapter-code/appendix-D.ipynb)                                                          | [./appendix-D](./appendix-D)  |
 | 부록 E: LoRA를 사용한 파라미터 효율적인 미세 튜닝       | - [appendix-E.ipynb](appendix-E/01_main-chapter-code/appendix-E.ipynb)                                                          | [./appendix-E](./appendix-E) |
 
@@ -105,7 +105,7 @@ LLM이 심층 신경망을 기반으로 구축되므로 이에 대한 경험이 
   - [Installing Python Packages and Libraries Used In This Book](setup/02_installing-python-libraries)
   - [Docker Environment Setup Guide](setup/03_optional-docker-environment)
 - **2장: 텍스트 데이터 다루기**
-  - [Byte Pair Encoding (BPE) Tokenizer From Scratch](ch02/05_bpe-from-scratch/bpe-from-scratch.ipynb)
+  - [Byte Pair Encoding (BPE) Tokenizer From Scratch](ch02/05_bpe-from-scratch/bpe-from-scratch-simple.ipynb)
   - [Comparing Various Byte Pair Encoding (BPE) Implementations](ch02/02_bonus_bytepair-encoder)
   - [Understanding the Difference Between Embedding Layers and Linear Layers](ch02/03_bonus_embedding-vs-matmul)
   - [Dataloader Intuition with Simple Numbers](ch02/04_bonus_dataloader-intuition)
@@ -115,6 +115,11 @@ LLM이 심층 신경망을 기반으로 구축되므로 이에 대한 경험이 
 - **4장: 밑바닥부터 GPT 모델 구현하기**
   - [FLOPS Analysis](ch04/02_performance-analysis/flops-analysis.ipynb)
   - [KV Cache](ch04/03_kv-cache)
+  - [Attention alternatives](ch04/#attention-alternatives)
+    - [Grouped-Query Attention](ch04/04_gqa)
+    - [Multi-Head Latent Attention](ch04/05_mla)
+    - [Sliding Window Attention](ch04/06_swa)
+  - [Mixture-of-Experts (MoE)](ch04/07_moe)
 - **5장: 레이블이 없는 데이터를 활용한 사전 훈련**
   - [Alternative Weight Loading Methods](ch05/02_alternative_weight_loading/)
   - [Pretraining GPT on the Project Gutenberg Dataset](ch05/03_bonus_pretraining_on_gutenberg)
